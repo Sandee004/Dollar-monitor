@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "D2N Extension",
+    "version": "1.0",
+    "description": "A simple browser extension built with React and TypeScript. It shows the dollar to naira ratio in real time.",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Currecy Converter"
+    },
+    "permissions": [],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    }
+}
